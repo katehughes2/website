@@ -15,14 +15,13 @@ script {
   width: 25%;
   height: 25%;
   display: block;
-  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
 }
 
 body {
-  background-colou: grey;
+  background-colour: grey;
   font-family: futura;
   letter-spacing: 1.5px;
   text-align: center;
