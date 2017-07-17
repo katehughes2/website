@@ -26,3 +26,42 @@ img {
   margin-right: auto;
   padding-top: 20px;
 }
+
+.container {
+  /*margin-top made the image move relatively, nice distance - bottom and top*/
+  margin-top: 1em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.overlay {
+  padding-top: -20px;
+  padding-bottom: -20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffe6ff;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  font-family: futura;
+  color: grey;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
