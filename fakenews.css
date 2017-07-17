@@ -2,6 +2,9 @@ body {
   font-family: futura;
   letter-spacing: 1.5px;
   text-align: center;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -63,4 +66,15 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.btn1 {
+    font-family: futura;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bttom: 40px;
 }
