@@ -1,0 +1,77 @@
+body {
+  font-family: futura;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+h1 {
+  color: #99b3e6;
+  font-size: 54;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  margin:0px 0px -0px -20px;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+  display: block;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+footer {
+  font-size-adjust: auto;
+}
+
+.container {
+  /*margin-top made the image move relatively, nice distance - bottom and top*/
+  margin-top: 1em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.overlay {
+  padding-top: -20px;
+  padding-bottom: -20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffe6ff;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  font-family: futura;
+  color: grey;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.btn1 {
+    font-family: futura;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bttom: 40px;
+}
